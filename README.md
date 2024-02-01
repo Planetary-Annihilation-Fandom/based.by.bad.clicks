@@ -1,5 +1,5 @@
-# based.by.bad.balance
-Born in darkness, grown in the tomb - meet the bad balance mod!
+# based.by.bad.clicks
+Wished by folks, praised by Gods
 
 # Licence
 https://github.com/Planetary-Annihilation-Fandom/based.by.bad.balance/blob/main/LICENSE.MD
