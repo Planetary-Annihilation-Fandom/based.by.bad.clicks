@@ -6,3 +6,6 @@ https://github.com/Planetary-Annihilation-Fandom/based.by.bad.balance/blob/main/
 
 # Credits to devs of Legion Expansion
 https://github.com/Planetary-Annihilation-Fandom/based.by.bad.balance/blob/main/CREDITS.ZV
+
+changes listed there:
+https://github.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial
