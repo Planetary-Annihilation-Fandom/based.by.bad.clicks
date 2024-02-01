@@ -1,52 +1,127 @@
 {
-    "identifier": "based.by.bad.experience",
-    "author":"Community",
-
-    "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/Celes.png",
-    "display_name": "Celestial Expansion Additional (BOMBS and ROCKETS - UPDATE v2.7)",
-    "description": "Take a new look into Planetary Annihilation! Expansion combines and balances \"Legion Faction\" and \"Second Wave\". Try it now and get new exciting experience! \n Follow updates on Steam or PA:Discord. Feel free to suggest new ideas and improvements!",
-    
-    "category":[
-		"titans",
-		"units",
-		"balance"
-	],
-
-    "forum": "https://steamcommunity.com/app/386070/discussions/0/3821908348803722363/",
-    "github": "https://github.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial.additional/",
-
-    "build": "116982",
-    "version": "2.7.0-up0",
-    "date": "2023-06-22",
-    
-    "context":"server",
-    "priority": 100,
-
-    "dependencies":[
+    "identifier": "based.by.bad.clicks",
+    "author": "Bastard Sprinkles Team, The Contributor, Team DAEDALUS, Taiga, Quildtide, Anonemous2, Gunflirt, Past Perfect, Anonemous2, billthebluebot, Taiga, Quitch, Quildtide, Ferretmaster, Tatarstan, DrWondertainment, nicb1, Crembels, KillerKiwiJuice, mgmetal13, zx0, Luther, Alpha2546, PRoeleert, wondible, mikeyh, Quitch, Stuart98, dom314, CptConundrum, Elodea, Ferretmaster, BillTheBlueBot, Anonemous2, Taiga, Quitch, Quildtide, AndreasG, Clopse, Graushwein, N30N, Qzipco, WPMarshall, xankar",
+    "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/based.by.bad.balance/main/icon.png",
+    "display_name": "BABYBACL",
+    "description": "Wished by folks, praised by Gods",
+    "category": [
+        "titans",
+        "units",
+        "balance",
+        "ui",
+        "in-game",
+        "particles",
+        "effects"
     ],
-
-    "scenes":{
-        "shared_build": [
-			"coui://ui/mods/com.pa.expansion.celestial.additional/shared_build.js"
-		],
-		"icon_atlas": [
-			"coui://ui/mods/com.pa.expansion.celestial.additional/icon_atlas.js"
-		],
-        "server_browser":[
-              "coui://ui/mods/lobby/viewer/server_browser.js"
+    "forum": "https://steamcommunity.com/app/386070/discussions/0/3821908348803722363/",
+    "github": "https://github.com/Planetary-Annihilation-Fandom/based.by.bad.clicks/",
+    "build": "117640",
+    "version": "2000.9.2-ru6",
+    "date": "2024-02-01",
+    "context": "client",
+    "priority": 919,
+    "dependencies": [
+        "com.pa.raevn.rfloatframe"
+    ],
+    "scenes": {
+        "server_browser": [
+            "coui://ui/mods/lobby/viewer/server_browser.js"
+        ],
+        "start": [
+            "coui://ui/mods/bugs_faction/start.js",
+            "coui://ui/mods/com.pa.legion-expansion/start.js"
         ],
         "new_game": [
-              "coui://ui/mods/lobby/viewer/start.js",
-              "coui://ui/mods/lobby/viewer/css/button.css",
-              "coui://ui/mods/lobby/generator/new_game.js"
+            "coui://ui/mods/com.pa.expansion.celestial/new_game.js",
+            "coui://ui/mods/com.pa.legion-expansion/new_game.js",
+            "coui://ui/mods/commander_merge/new_game/commander-merge.js",
+            "coui://ui/mods/commander_merge/new_game/new_game.js",
+            "coui://ui/mods/lobby/viewer/start.js",
+            "coui://ui/mods/lobby/viewer/css/button.css",
+            "coui://ui/mods/lobby/generator/new_game.js",
+            "coui://ui/mods/system_effects/new_game.js",
+            "coui://ui/mods/map-generator/new_game.js",
+            "coui://ui/mods/com.pa.legion-expansion/new_game.js"
         ],
         "live_game": [
-            "coui://ui/mods/gameplay/infinitybuild/main.js"
+            "coui://ui/mods/mla.unit.addon/fab_tower_patrol.js",
+            "coui://ui/mods/bugs_faction/research.js",
+            "coui://ui/mods/bugs_faction/research_live_game.js",
+            "coui://ui/mods/gameplay/infinitybuild/main.js",
+            "coui://ui/mods/system_effects/live_game.js",
+            "coui://ui/mods/system_effects/puppet_framework.js",
+            "coui://ui/mods/metalInSelection/live_game/metalInSelection.js",
+            "coui://ui/mods/bugs_faction/live_game/selection_audio.js"
+        ],
+        "live_game_players": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_players.js",
+            "coui://ui/mods/bugs_faction/live_game/players.js"
+        ],
+        "live_game_chat": [
+            "coui://ui/mods/com.pa.expansion.celestial/live_game_chat.js",
+            "coui://ui/mods/system_effects/chat_handler.js"
+        ],
+        "live_game_build_bar": [
+            "coui://ui/mods/bugs_faction/live_build_bar.js",
+            "coui://ui/mods/system_effects/effect_option_bar.js",
+            "coui://ui/mods/com.pa.legion-expansion/live_game_build_bar.js"
+        ],
+        "live_game_build_hover": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_build_hover.js"
+        ],
+        "live_game_action_bar": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_action_bar.js"
+        ],
+        "live_game_selection": [
+            "coui://ui/mods/metalInSelection/live_game/selectionHandler.js",
+            "coui://ui/mods/com.pa.legion-expansion/live_game_selection.js"
+        ],
+        "live_game_sandbox": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_sandbox.js"
+        ],
+        "live_game_menu": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_menu.js"
+        ],
+        "live_game_planets": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_planets.js"
+        ],
+        "live_game_control_group_bar": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_control_group_bar.js"
+        ],
+        "live_game_options_bar": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_options_bar.js"
+        ],
+        "live_game_econ": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_econ.js"
+        ],
+        "live_game_time_bar": [
+            "coui://ui/mods/com.pa.legion-expansion/live_game_time_bar.js"
+        ],
+        "shared_build": [
+            "coui://ui/mods/mla.unit.addon/shared_build.js",
+            "coui://ui/mods/com.pa.daedalus.experimentals/shared_build.js",
+            "coui://ui/mods/bugs_faction/shared_build.js",
+            "coui://ui/mods/com.pa.expansion.celestial.additional/shared_build.js",
+            "coui://ui/mods/com.pa.legion-expansion/shared_build.js"
+        ],
+        "icon_atlas": [
+            "coui://ui/mods/mla.unit.addon/icon_atlas.js",
+            "coui://ui/mods/com.pa.daedalus.experimentals/icon_atlas.js",
+            "coui://ui/mods/com.pa.legion-expansion/icon_atlas.js",
+            "coui://ui/mods/bugs_faction/icon_atlas.js",
+            "coui://ui/mods/com.pa.expansion.celestial.additional/icon_atlas.js"
+        ],
+        "system_editor": [
+            "coui://ui/mods/com.pa.biomes.lite.server/system_editor.js",
+            "coui://ui/mods/com.pa.biomes.lite.client/system_editor.js"
+        ],
+        "settings": [
+            "coui://ui/mods/com.pa.legion-expansion/settings.js",
+            "coui://ui/mods/bugs_faction/settings.js"
         ]
     },
-
     "framework": false,
-
-    "signature" : "Enjoy this modification!",
-    "titansOnly": true
+    "signature": "Enjoy this modification!",
+    "titansOnly": true,
+    "hidden": true
 }
