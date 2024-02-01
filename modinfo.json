@@ -1,0 +1,52 @@
+{
+    "identifier": "based.by.bad.experience",
+    "author":"Community",
+
+    "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/Celes.png",
+    "display_name": "Celestial Expansion Additional (BOMBS and ROCKETS - UPDATE v2.7)",
+    "description": "Take a new look into Planetary Annihilation! Expansion combines and balances \"Legion Faction\" and \"Second Wave\". Try it now and get new exciting experience! \n Follow updates on Steam or PA:Discord. Feel free to suggest new ideas and improvements!",
+    
+    "category":[
+		"titans",
+		"units",
+		"balance"
+	],
+
+    "forum": "https://steamcommunity.com/app/386070/discussions/0/3821908348803722363/",
+    "github": "https://github.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial.additional/",
+
+    "build": "116982",
+    "version": "2.7.0-up0",
+    "date": "2023-06-22",
+    
+    "context":"server",
+    "priority": 100,
+
+    "dependencies":[
+    ],
+
+    "scenes":{
+        "shared_build": [
+			"coui://ui/mods/com.pa.expansion.celestial.additional/shared_build.js"
+		],
+		"icon_atlas": [
+			"coui://ui/mods/com.pa.expansion.celestial.additional/icon_atlas.js"
+		],
+        "server_browser":[
+              "coui://ui/mods/lobby/viewer/server_browser.js"
+        ],
+        "new_game": [
+              "coui://ui/mods/lobby/viewer/start.js",
+              "coui://ui/mods/lobby/viewer/css/button.css",
+              "coui://ui/mods/lobby/generator/new_game.js"
+        ],
+        "live_game": [
+            "coui://ui/mods/gameplay/infinitybuild/main.js"
+        ]
+    },
+
+    "framework": false,
+
+    "signature" : "Enjoy this modification!",
+    "titansOnly": true
+}

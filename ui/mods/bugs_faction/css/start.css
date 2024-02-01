@@ -1,0 +1,87 @@
+body.bugs #background {
+  background-image: url("coui://ui/mods/bugs_faction/img/Bug_Menu.png");
+}
+
+body.bugs {
+  background-image: url("coui://ui/mods/bugs_faction/img/Bug_Menu.png");
+}
+
+.bugs .nav_sub_item {
+  border: 0 !important;
+}
+
+.bugs .secondary_bar {
+  background: rgba(0, 0, 0, 0.15) !important;
+}
+
+.bugs #start_column {
+  background: rgba(0, 0, 0, 0.15) !important;
+}
+
+.bugs .full_update {
+  background: linear-gradient(
+    to top,
+    rgba(0, 50, 0, 0.8) 0%,
+    rgba(0, 60, 0, 1) 85%
+  ) !important;
+  border: 1px solid rgba(0, 255, 0, 0.2) !important;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7) !important;
+  color: white;
+}
+
+.bugs .ytv-list a {
+  color: white;
+}
+
+.bugs .ytv-views {
+  color: rgb(180, 180, 180);
+  opacity: 1;
+}
+
+.bugs .username {
+  text-shadow: 0 0 20px rgba(0, 70, 0, 0.9) !important;
+}
+
+.bugs .update_title {
+  color: white !important;
+}
+
+.bugs .copyright {
+  color: white;
+}
+
+.bugs .div_kickstarter_watermark {
+  background: url("coui://ui/main/game/start/img/img_kickstarter_logo_hover.png")
+    top center no-repeat !important;
+  background-size: 32px 32px;
+}
+
+.bugs .div_uber_watermark {
+  background: url("coui://ui/main/game/start/img/img_uber_logo_hover.png") top
+    center no-repeat !important;
+  background-size: 44px 44px;
+}
+
+.bugs .div_kickstarter_watermark:hover {
+  background: url("coui://ui/main/game/start/img/img_kickstarter_logo_rest.png")
+    top center no-repeat !important;
+  background-size: 32px 32px;
+}
+
+.bugs .div_uber_watermark:hover {
+  background: url("coui://ui/main/game/start/img/img_uber_logo_rest.png") top
+    center no-repeat !important;
+  background-size: 32px 44px;
+}
+
+.bugs .input_text {
+  background: rgba(0, 70, 0, 1) !important;
+  border: 1px solid rgba(0, 158, 0, 0.1) !important;
+}
+
+.bugs .tooltip-inner {
+  max-width: 190px !important;
+  padding: 6px 8px;
+  background-color: rgba(0, 70, 0, 1) !important;
+  box-shadow: 0 0 25px rgba(0, 255, 0, 0.7) !important;
+}

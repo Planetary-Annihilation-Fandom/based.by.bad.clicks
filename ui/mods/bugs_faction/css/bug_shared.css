@@ -1,0 +1,28 @@
+.bugs .content_titans_badge {
+    height: 0%;
+  }
+  
+  .bugs .section_title {
+    text-shadow: 0 0 20px rgba(0, 190, 0, 0.9) !important;
+  }
+  
+  .bugs .section_title .content .title {
+    text-shadow: 0 0 20px rgba(0, 190, 0, 0.9) !important;
+  }
+  
+  .bugs .body {
+    color: white !important;
+  }
+  
+  .bugs label {
+    color: white;
+  }
+  
+  .bugs label:hover {
+    color: white;
+  }
+  
+  .bugs label:active {
+    color: white;
+  }
+  

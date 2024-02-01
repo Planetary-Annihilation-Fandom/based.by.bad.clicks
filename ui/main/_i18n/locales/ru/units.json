@@ -1,0 +1,43 @@
+{
+    "Solaris":{
+        "message":"Солярис"
+    },
+    "Orbital Solar Array Drone - Produces energy. Mobile but slow. Weak. Attacks land, air, and sea targets.":{
+        "message":"Орбитальный Дрон с Солнечной Батареей - Производит энергию. Мобильный, но медленный. Слабый. Атакует наземные, воздушные и морские цели."
+    },
+
+    "Radar":{
+        "message":"Радар"
+    },
+    "Basic Radar - Detects nearby enemy land, sea, and air units. Marks orbital targets on the planet.":{
+        "message":"Базовый Радар - Обнаруживает ближайшие наземные, морские и воздушные единицы противника. Отмечает орбитальные цели на планете."
+    },
+
+    "Advanced Radar":{
+        "message":"Продвинутый Радар"
+    },
+    "Advanced Radar - Detects nearby enemy land, sea, and air units. Reveals orbital targets on the planet.":{
+        "message":"Продвинутый Радар - Обнаруживает ближайшие наземные, морские и воздушные единицы противника. Раскрывает орбитальные цели на планете."
+    },
+
+    "Celestial-wide Radar":{
+        "message":"Космический Радар"
+    },
+    "Celestial-wide Radar - Radar telemetry with large planet vision radius. Allows to see all orbital targets in the entire star system. Visible to everyone.":{
+        "message":"Небесно-широкий радар - Радар с большим радиусом обзора планеты. Позволяет видеть все орбитальные цели во всей звездной системе."
+    },
+
+    "ARKYD":{
+        "message":"Аркид"
+    },
+    "Basic Radar - Detects a large area for enemy land, sea, and air units. Reveals orbital targets on the planet in a certain distance. Marks orbital targets on the planet. Visible to everyone.":{
+        "message":"Базовый Радар - Охватывает большую территорию для обнаружения вражеских наземных, морских и воздушных подразделений. Раскрывает орбитальные цели на небольшом расстоянии. Отмечает орбитальные цели на планете. Виден всем."
+    },
+
+    "Advanced Radar Satellite":{
+        "message":"Продвинутый Радиолокационный Спутник"
+    },
+    "Advanced Radar - Detects a vast area for enemy land, sea, and air units. Reveals orbital targets on the planet. Visible to everyone.":{
+        "message":"Продвинутый радар - Охватывает обширную территорию для обнаружения вражеских наземных, морских и воздушных подразделений. Раскрывает орбитальные цели на планете. Виден всем."
+    }
+}

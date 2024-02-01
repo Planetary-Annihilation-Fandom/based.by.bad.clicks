@@ -1,0 +1,144 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <noloc>
+        <title>Effect Testing UI</title>
+    </noloc>
+    <!--<link href="bundle://boot/boot.css" rel="stylesheet" type="text/css" />-->
+    <link href="coui://ui/mods/system_effects/lobbySettingsUI.css" rel="stylesheet" type="text/css" />
+    <!--<script src="bundle://boot/boot.js" type="text/javascript"></script>-->
+</head>
+
+<body class="body_panel">
+    <div class="div_effect_dock border">
+        <!-- ko if: UIExpanded -->
+        <div id="system_main" class="div_system_main">
+            <div class="div_effect_unit_cont">
+                <h5>System Effects Settings</h5>
+                <h6 class="description"><i>enable/disable and set the rarity of effects for different biomes, chance is 0.0-1.0(0%-100%).</i></h6>
+                <div class="section_content">
+                    <div class="section_wrapper overall_width">
+                        <div id="tab3" class="tab-pane" style="display: visible">
+                            <div id="new-game-right" class="col">
+
+                                <div class="col-padding">
+                           
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.">
+                                            <loc>Total Effect Limit Per Biome</loc>
+                                        </label>
+                                        <input type="text" name="effectLimitPerBiomeType" value="" class="input_chat_text" data-bind="textInput:lobbyEffectSettingsModel.effectLimitPerBiomeType, hasfocus: box1Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.maxAmount">
+                                            <loc>Max Effect Limit</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.maxAmount" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.maxAmount, hasfocus: box2Selected"
+                                            placeholder = "16"/>
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.sunChance">
+                                            <loc>Sun Chance</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.sunChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.sunChance, hasfocus: box3Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.gasChance">
+                                            <loc>Gas Chance</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.gasChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.gasChance, hasfocus: box4Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.metalChance">
+                                            <loc>Metal Chance</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.metalChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.metalChance, hasfocus: box5Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.asteroidChance">
+                                            <loc>Asteroid Chance</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.asteroidChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.asteroidChance, hasfocus: box6Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.moonChance">
+                                            <loc>Moon Chance</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.moonChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.moonChance, hasfocus: box7Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+
+                                    <form class="chat_input_form">
+                                    <label for="lobbyEffectSettingsModel.lavaChance">
+                                        <loc>Lava Chance</loc>
+                                    </label>
+                                    <input type="text" name="lobbyEffectSettingsModel.lavaChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.lavaChance, hasfocus: box8Selected"
+                                        placeholder = "1.0" />
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.earthChance">
+                                            <loc>Earth Chance</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.earthChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.earthChance, hasfocus: box9Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.tropicalChance">
+                                            <loc>Tropical Chance</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.tropicalChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.tropicalChance, hasfocus: box10Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.desertChance">
+                                            <loc>Desert Chance</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.desertChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.desertChance, hasfocus: box11Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+                                    <form class="chat_input_form">
+                                        <label for="lobbyEffectSettingsModel.iceChance">
+                                            <loc>Ice Chance</loc>
+                                        </label>
+                                        <input type="text" name="lobbyEffectSettingsModel.iceChance" value="" class="input_chat_text" data-bind="textInput: lobbyEffectSettingsModel.iceChance, hasfocus: box12Selected"
+                                            placeholder = "1.0" />
+                                    </form>
+                                    <div class="form-group" id = "systemCheckBox">
+                                        <label style="text-transform: none" data-bind="click: enabledToggle" id = "enabledCheckBox">
+                                            <table>
+                                                <tr>
+                                                    <th>
+                                                        <loc id = "systemCheckBox">Enabled</loc> <input type="checkbox"
+                                                            data-bind="checked: lobbyEffectSettingsModel.enabled"/>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                            <br>
+                                    </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /ko -->
+    </div>
+    <br />
+</body>
+<script>
+    ko.cleanNode(document.getElementById("system_main"));
+    ko.applyBindings(lobbyEffectSettingsModel, document.getElementById("system_main"));
+
+</script>
+
+</html>

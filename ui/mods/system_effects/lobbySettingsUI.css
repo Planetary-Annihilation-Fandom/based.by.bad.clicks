@@ -1,0 +1,95 @@
+.body_panel {
+    min-height: 60px;
+    padding: 0 5px 5px 0px;
+}
+
+/* UTILITY */
+.receiveMouse {
+    pointer-events: all;
+}
+
+.ignoreMouse {
+    pointer-events: none;
+}
+
+/*----- effect
+-----------------------------------------------------------------*/
+
+.title {
+    display: block;
+}
+
+.div_system_main {
+    width: 200px;
+}
+
+
+
+
+
+.div_effect_dock {
+    padding-top:4px;
+    font-size: 200%;
+    box-shadow:0px 0px 5px #000;
+    background-color: rgba(0,0,0,0.5);
+    display:inline-block;
+}
+
+.div_effect_dock.border {
+    border-top:1px solid #1e7aa1;
+}
+
+.div_effect_dock.detach {
+    margin-top: 5px;
+    
+}
+
+.div_effect_bottom_spacer {
+    height: 25px;
+    min-width: 700px;
+}
+
+
+.input_chat_text, input[type="text"] {
+    width: 32px;
+    margin:0px;
+}
+
+
+
+#systemCheckBox{
+    font-size: 150%;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+
+#lobbySystemCheckBox{
+    font-size: 100%;
+    white-space: nowrap;
+}
+
+
+#enabledCheckBox{
+    font-size: 50%;
+    white-space: nowrap;
+}
+
+.description{
+
+    font-size: 14px;
+}
+  
+.Warning{
+    border-style: solid!important;
+    border-color: red!important;
+    color: #D8000C!important;
+}
+.Valid{
+    border-style: solid!important;
+    border-color: rgb(17, 206, 17)!important;
+    color: rgb(17, 206, 17)!important;
+}

@@ -1,0 +1,18 @@
+{
+    "context": "client",
+    "identifier": "com.pa.ferretmaster.ferret-visuals",
+    "display_name": "Ferret's better Biome visuals",
+    "description": "Attempts to shift pa's look closer to the original trailer by making it more colourful and contrasty.",
+    "author": "ferretmaster",
+    "signature": " ",
+    "forum": "https://steamcommunity.com/app/386070/discussions/0/4033601726318959461/",
+    "icon": "https://github.com/Ferret-Master/Ferrets-Better-Biome-Visuals/blob/main/icon.png?raw=true",
+    "category": [
+        "titans",
+        "classic",
+        "effects"
+    ],
+    "version": "1.0.0",
+    "build": "116982",
+    "date": "2023-12-28"
+}

@@ -1,0 +1,23 @@
+{
+    
+    "Nova":{
+        "message":"Нова"
+    },
+    "Combat Reclaimer - Reclaims nearby wreckage and trees. Repairs friendly units. Can't help build other structures.":{
+        "message":"Боевой Собиратель - Собирает ближайшие обломки юнитов и деревья. Ремонтирует дружественных юнитов. Не помогает строить сооружения."
+    },
+
+    "Black Knight":{
+        "message":"Блэк Найт"
+    },
+    "Siege Plasma Launcher - High splash damage. Attacks land and sea at a great distance.":{
+        "message":"Осадная Плазменная Пусковая Установка - высокий урон по области. Атакует сушу и море на большом расстоянии."
+    },
+
+    "Sputnik":{
+        "message":"Спутник"
+    },
+    "Kosmos":{
+        "message":"Космос"
+    }
+}
